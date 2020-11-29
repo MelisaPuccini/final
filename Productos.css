@@ -1,0 +1,189 @@
+.contenido1 {
+    background-image: url("fondo3.jpg");
+    background-size: cover;
+    
+}
+h1 {   
+    background-image: url("fondo3.jpg");
+    background-size: cover;
+    font-family: 'Libre Baskerville', serif;
+    color: #800080;
+    font-size: 55px;
+    padding: 15px;
+    
+}
+nav {
+    background: rgb(122, 255, 188, 0.9);
+    width: 100%;
+    position: relative;
+    z-index: 100; 
+    
+  }
+nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+nav ul li {
+    float: left;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+nav ul li a {
+    display: inline-block; 
+    padding: 5px;
+    border-style: inset;
+    border-color: rgb(122, 255, 188, 0.9);
+    margin-right: 80px;
+    color: rgb(132, 23, 146);
+    text-decoration: none;
+    line-height: 30px;
+    margin-left: 42px
+    
+  } 
+.contenido {
+    padding-top: 70px;  
+}
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+img {
+  padding: 25px; 
+  float: left;
+  }
+  .texto {
+    font-family: 'Courgette', cursive;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: #00B5B8  ;
+    
+  
+  }
+  #titulo2 {
+    font-size: 35px;
+    color: #A760D5;
+    font-family: 'Libre Baskerville', serif;
+  }
+  
+  .bloques {
+    padding-left: 9px; 
+   
+    
+  }
+  
+  .bloques img {
+    width: 270px;
+    height: 250px;
+    object-fit: cover;
+    padding-left: 25px;
+    border-style: double;
+    border-color: #54FF9D ;
+    border-radius: 10px;
+    margin-left: 5px;
+    background-color: rgb(254, 255, 205); 
+  } 
+
+  table, td, th {border: 2px solid #00B5B8; border-radius: 10px; }
+  td, th { width: 270px; height: 220px; border: none}
+  table { border-collapse: separate; margin-left: 25px; margin-right: 25px; margin-bottom: 10px; border-width: 1px; border-spacing: 0; border-radius: 10px;}
+  td { font-family:  'Libre Baskerville'; color: #800080; text-align-last: center; background-color:  rgb(254, 255, 205); }
+  
+h2 { font-family:'Courgette', cursive, serif ; font-size: 40px; color: #17A589 ; text-align: center;background-image: url("fondo3.jpg"); 
+
+}
+
+
+.tizquierda {float: left;
+}
+.tderecha {
+  float: right;
+  
+}
+h2 {
+  clear: both 
+}
+
+
+.img {
+  
+  object-fit: cover;
+  border-radius: 10px;
+  width: 300px;
+  height: 200px
+}
+
+
+
+
+
+  .form {
+    font-size: 18px;
+    line-height: 1.8em;
+    width: 350px;
+    border: 3px groove  #00B5B8 ;
+    border-radius: 20px;
+    margin-left: 480px;
+    padding: 10px;
+    font-family: 'Libre Baskerville', serif; color: rgb(132, 23, 146);
+    background-image: url("fondo3.jpg");
+    
+  }
+  .form h2 {
+    background-color: rgb(254, 255, 205);
+    border-radius: 4px;
+  }
+  
+  .form input {
+    border-radius: 4px;
+    border-color: rgb(132, 23, 146);
+    border-width: 1px;
+  }
+  
+  #formulario {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+
+
+  footer {
+    background-color: rgb(254, 255, 205); 
+    position: relative;
+    z-index: 100;
+    margin-bottom: 10px;
+  }
+  
+  footer ul {
+    list-style: none;
+    overflow: hidden;
+    margin-left: 950px;
+  }
+  
+  footer ul li a img {
+    width: 35px;
+    height: 30px;
+    display: inline-block; 
+    padding: 5px;
+    line-height: 30px;
+    margin-left: 50px;
+    margin-right: 10px;
+    object-fit: cover;
+      
+  }
+  
+  #arriba {
+    margin-left: 50px;
+    
+  
+  }
+ 
+  .top {
+    margin-top: 8px;
+    font-size: 17px;    
+    font-family: 'Libre Baskerville', serif; color: #800080;
+  }
+ 

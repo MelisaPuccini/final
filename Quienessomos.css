@@ -1,0 +1,157 @@
+.contenido1 {
+    background-image: url("fondo3.jpg");
+    background-size: cover;
+    
+}
+h1 {   
+    background-image: url("fondo3.jpg");
+    background-size: cover;
+    font-family: 'Libre Baskerville', serif;
+    color: #800080;
+    font-size: 55px;
+    padding: 15px;
+    
+}
+nav {
+    background: rgb(122, 255, 188, 0.9);
+    width: 100%;
+    position: relative;
+    z-index: 100; 
+    
+  }
+nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+nav ul li {
+    float: left;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav ul li a {
+    display: inline-block; 
+    padding: 5px;
+    border-style: inset;
+    border-color: rgb(122, 255, 188, 0.9);
+    margin-right: 80px;
+    color: rgb(132, 23, 146);
+    text-decoration: none;
+    line-height: 30px;
+    margin-left: 42px
+    
+    
+  } 
+.contenido {
+    padding-top: 70px;  
+}
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+img {
+  padding: 25px; 
+  float: left;
+  }
+
+.slider {  
+	width: 100%;
+  margin-left: -20px;
+  overflow: hidden;
+   
+}
+.slider ul {
+  list-style: none;
+	display: flex;
+	padding: 50px;
+  width: 203%;
+  animation: cambio 30s infinite alternate linear;
+}
+
+.slider ul li img {
+  border-style: groove;
+  border-width: 2px;
+  border-color: rgb(135, 101, 167);
+  border-radius: 10px;
+  padding: inherit;
+  width: 523px;
+  height: 300px;
+  margin-left: 0%;
+  animation: infinite;
+  
+}
+@keyframes cambio {
+	
+  20% {margin-left: -100%;}
+  10% {margin-left: -100%;}
+  5% {margin-left: 0%}
+  0% {margin-left: 0%} 
+}
+
+.texto {
+  font-family: 'Courgette', cursive;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  color: #00B5B8  ;
+  
+
+}
+#titulo2 {
+  font-size: 35px;
+  text-align: center;
+  color: #A760D5;
+  font-family: 'Libre Baskerville', serif;
+}
+
+#titulo2 {
+    background-color: rgb(218, 253, 241);
+    font-family:'Libre Baskerville', serif;
+}
+
+.p {
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+    color: rgb(18, 156, 110);
+    margin-left: 20px;
+    margin-right: 8px;
+
+}
+
+footer {
+    background-color: rgb(254, 255, 205); 
+    position: relative;
+    z-index: 100;
+    margin-bottom: 10px;
+  }
+  
+  footer ul {
+    list-style: none;
+    overflow: hidden;
+    margin-left: 880px;
+  }
+  
+  footer ul li a img {
+    width: 35px;
+    height: 30px;
+    display: inline-block; 
+    padding: 5px;
+    line-height: 30px;
+    margin-left: 80px;
+    margin-right: 10px;
+    object-fit: cover;
+  }
+  
+  #arriba {
+    margin-left: 50px;
+    
+  
+  }
+ 
+  .top {
+    margin-top: 8px;
+    font-size: 17px;    
+    font-family: 'Libre Baskerville', serif; color: #800080;
+  }
